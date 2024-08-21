@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - TAZALIN TRAINING INSTITUTE</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">TAZALIN TRAINING INSTITUTE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="academics.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="apply-now.html" class="cta-button">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Apply Now Section -->
+    <section id="apply-now" class="apply-now">
+        <h2>Apply Now</h2>
+        <form action="mailto:info@yourdomain.com" method="post" enctype="multipart/form-data">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program" required>
+                <option value="computer-science">Computer Science</option>
+                <option value="business-administration">Business Administration</option>
+                <option value="engineering">Engineering</option>
+                <option value="design">Design</option>
+            </select>
+
+            <label for="message">Additional Information:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <div class="file-upload">
+                <label for="resume">Upload Your Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <button type="submit" class="submit-button">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TAZALIN TRAINING INSTITUTE. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
